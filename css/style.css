@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(nickBackground.jpg);
+}
+.container{
+    border-radius: 50px;
+    max-width: 500px;
+    max-height: 500px;
+}
+header{
+    background-color: rgba(78, 30, 89);
+    width: 70%;
+    margin: auto;
+}
+h1{
+    color: rgb(245, 240, 245);
+    font-family: "Nunito", Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.table{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px;
+    width: 80%;
+    height: 600px;
+    border: 1px solid, black;
+    border-radius: 8px;
+    margin: 1rem auto;
+}
+.table > section{
+    background: rgba(242, 50, 23);
+    border: 1px dotted rgba(255, 166, 0, 0.635);
+    min-width: 0;
+    min-height: 0;
+    position: relative;
+    overflow: hidden
+    /* All this prevents cards from bleedign out */
+}
+.card{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    bottom: 8px;
+    left: 8px;
+    margin: 0 auto;
+    object-fit: contain;
+    width: calc(100% - 16px);
+    height: calc(100% - 16px);
+}
+.results{
+    background-color: rgba(78, 30, 89, 0.417);
+    width: 20%;
+    margin: auto;
+    text-align: center;
+}
+h2, h3{
+    font-family: "Nunito", Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: white;
+}
+.redo{
+    font-family: "Unkempt", Arial, Helvetica, sans-serif;
+    font-size: 1.5rem; 
+}
+ /* 
+ ==============================================
+ ADDITIONAL STYLES
+ ===============================================
+ */
+ .flipper{
+    cursor: pointer;
+ }

@@ -1,22 +1,22 @@
-# ♠️ Week08 Bootcamp2019a Project: Matching Card Game
+# Project: Matching Card Game
 
 ### Goal: Make a 10 card memory game - users must be able to select two cards and check if they are a match. If they are a match, they stay flipped. If not, they flip back over. Game is done when all cards are matched and flipped over. Example: http://www.fruit-burst.co.uk/fun-and-games/pairs-game 
 
-### How to submit your code for review:
+### Features:
+- It's a game! Welcome to my nostalgic Nickolodeon-themed matching card game.
+- For this game, you pick two cards. If they're a match, keep finding your matches!
+- Once you find all the pairs, you'll get a winning messgae. 
+- In the meantime, a counter is keeping track of all your match attempts. 
+- Happy Playing!
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![screenshot of web page](/css//screenshotPage.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+### Tech Used: 
+- HTML, CSS, Vanilla JavaScript
+
+### What I learned: 
+- Adding multiple classes to the cards really helped to make the game logic work.
+- I had to make sure to have enough photos for the cards in the array. I initially only had 5 cards thinking I could use them to create matching pairs but it was better to have 10 images total with a set of 5, repeating to randomize through. 
+
+### How to run project: 
+- Follow the link in the about section of this repo to the right of the screen!
