@@ -3,9 +3,9 @@
 ### Goal: Make a 10 card memory game - users must be able to select two cards and check if they are a match. If they are a match, they stay flipped. If not, they flip back over. Game is done when all cards are matched and flipped over. Example: http://www.fruit-burst.co.uk/fun-and-games/pairs-game 
 
 ### Features:
-- It's a game! Welcome to my nostalgic Nickolodeon-themed matching card game.
+- It's a game! Welcome to my nostalgic Nickelodeon-themed matching card game.
 - For this game, you pick two cards. If they're a match, keep finding your matches!
-- Once you find all the pairs, you'll get a winning messgae. 
+- Once you find all the pairs, you'll get a winning message. 
 - In the meantime, a counter is keeping track of all your match attempts. 
 - Happy Playing!
 
