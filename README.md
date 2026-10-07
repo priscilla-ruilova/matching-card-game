@@ -9,7 +9,7 @@
 - In the meantime, a counter is keeping track of all your match attempts. 
 - Happy Playing!
 
-![screenshot of web page](/css//screenshotPage.png)
+![screenshot of web page](/css/screenshotCardMatching.png)
 
 ### Tech Used: 
 - HTML, CSS, Vanilla JavaScript
